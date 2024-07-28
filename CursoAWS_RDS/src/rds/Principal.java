@@ -11,8 +11,8 @@ public class Principal {
 	public static void main(String[] args) {
 
 		System.out.println("Seleccione el tipo de base de datos:");
-		System.out.println("1. MySQL");
-		System.out.println("2. Oracle");
+		System.out.println("1. MySQL (Acceso Público)");
+		System.out.println("2. Oracle (Acceso Privado)");
 		int opcion = scanner.nextInt();
 		scanner.nextLine();
 		switch (opcion) {
